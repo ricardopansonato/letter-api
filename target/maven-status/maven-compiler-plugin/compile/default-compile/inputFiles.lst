@@ -1,0 +1,5 @@
+/u01/development/java/workspace/legal/src/main/java/br/com/fiap/api/android/trabalho/repository/SwitchRepository.java
+/u01/development/java/workspace/legal/src/main/java/br/com/fiap/api/android/trabalho/controller/SwitchController.java
+/u01/development/java/workspace/legal/src/main/java/br/com/fiap/api/android/trabalho/SwitchApplication.java
+/u01/development/java/workspace/legal/src/main/java/br/com/fiap/api/android/trabalho/model/Switch.java
+/u01/development/java/workspace/legal/src/main/java/br/com/fiap/api/android/trabalho/config/MongoConfig.java

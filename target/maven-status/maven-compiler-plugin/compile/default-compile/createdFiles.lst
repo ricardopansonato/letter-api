@@ -1,0 +1,5 @@
+br/com/fiap/api/android/trabalho/model/Switch.class
+br/com/fiap/api/android/trabalho/SwitchApplication.class
+br/com/fiap/api/android/trabalho/repository/SwitchRepository.class
+br/com/fiap/api/android/trabalho/config/MongoConfig.class
+br/com/fiap/api/android/trabalho/controller/SwitchController.class
