@@ -43,8 +43,8 @@ public class LetterController {
 			final StringBuilder sb = new StringBuilder();
 
 			sb.append("<body>Pedido do seu filho!!!<strong><br/>");
-			sb.append("<body>Filho:<strong>").append(letter.getChildName()).append("<br/>");
-			sb.append("<body>Texto:<strong>").append(letter.getText()).append("<br/>");
+			sb.append("<body>Filho:<strong> ").append(letter.getChildName()).append("<br/>");
+			sb.append("<body>Texto:<strong> ").append(letter.getText()).append("<br/>");
 			textBodyPart.setContent(sb.toString(), "text/html; charset=utf-8");
 
 			MimeMultipart mimeMultipart = new MimeMultipart();
@@ -53,7 +53,7 @@ public class LetterController {
 			final MimeMessage message = emailSender.createMimeMessage();
 			InternetAddress iaRecipient = new InternetAddress(letter.getEmail());
 			message.setContent(mimeMultipart);
-			message.setSubject("[Natal]  Pedido do seu filho, porra!");
+			message.setSubject("[Natal]  Pedido do seu filho!");
 			message.setRecipient(Message.RecipientType.TO, iaRecipient);
 			emailSender.send(message);
 
